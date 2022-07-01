@@ -1,9 +1,8 @@
 <script>
-  const name = "this is name ";
 </script>
 
 <main class=" d bg-red-500 ">
-  <div>{name}</div>
+  <div>this is navbar</div>
 </main>
 
 <style>

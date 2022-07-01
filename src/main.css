@@ -1,3 +1,13 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+@layer components {
+  .d {
+    @apply border border-red-500;
+  }
+
+  /* .quote {
+    @apply font-lora border-l text-primary border-primary py-4 px-6 rounded-r-xl bg-gray-100 relative before:content-[''] before:absolute before:-top-5 before:-left-5 before:h-12 before:w-12 before:rounded-full before:bg-white before:bg-quote  before:bg-contain before:bg-no-repeat before:bg-center before:border-[0.4rem] before:border-transparent before:border-opacity-50;
+  } */
+}
